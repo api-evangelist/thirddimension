@@ -1,7 +1,16 @@
 aid: thirddimension
-name: Thirddimension
-description: Thirddimension is a company surfaced as a portfolio company of felicis and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: Third Dimension AI
+description: Third Dimension AI is a spatial-generation company building high-fidelity
+  3D worlds and simulation for embodied AI, autonomy, robotics, gaming, and entertainment.
+  Its core product, SuperSim, models the world across the full fidelity spectrum -
+  from real-world reconstruction of scenes captured from sensor data to open-ended
+  generative simulation - so autonomy teams can validate, train, and deploy AI systems
+  and close the simulation-to-reality domain gap without hand-built 3D art. Founded
+  by Tolga Kart (CEO) and Piotr Sokolski (CTO), with Oxford professor Christian Rupprecht
+  as Chief Researcher, the team draws on experience from Wayve, Tesla, Google, Luma
+  AI, Nvidia, Niantic, Amazon, and Unity. The company raised $7 million and is backed
+  by Felicis. As of this profile it exposes no public developer API, SDK, or documentation
+  surface; enrichment captured its identity and probed its domain security posture.
 url: https://raw.githubusercontent.com/api-evangelist/thirddimension/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +18,32 @@ x-backed-by:
 - felicis
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://thirddimension.ai/third-dimension-OG.webp
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Artificial Intelligence
+- Simulation
+- 3D
+- Robotics
+- Autonomy
+- Embodied AI
+- Spatial Computing
+- Gaming
+- Computer Vision
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +51,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/thirddimension-domain-security.yml
 - type: Website
   url: https://thirddimension.ai
+- type: About
+  url: https://thirddimension.ai/about
+- type: Blog
+  url: https://thirddimension.ai/blog
+- type: Careers
+  url: https://jobs.gem.com/third-dimension
+- type: PrivacyPolicy
+  url: https://thirddimension.ai/privacy-policy
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
